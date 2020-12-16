@@ -1,24 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 * {
   box-sizing: border-box;
-  font-family: Fahkwang;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Fahkwang:wght@300;400&family=Noto+Sans&display=swap");
+
+body {
+  font-family: "Fahkwang", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
 #port {
   margin-top: 0;
+  color: rgb(0, 0, 0);
 }
 
 #name {
@@ -364,7 +356,6 @@ footer {
   main {
     color: black;
     height: auto;
-    background-color: white;
   }
 
   footer {

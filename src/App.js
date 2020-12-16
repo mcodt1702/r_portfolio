@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import Header from "./Components/header";
 import AboutMe from "./Components/aboutMe";
+import Mywork from "./Components/myWork";
 
 export default class App extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class App extends Component {
       <main className="App">
         <Route path={"/"} component={Header}></Route>
         <Route path={"/"} component={AboutMe}></Route>
-        <h2>welcome to my portfolio</h2>
+        <Route path={"/"} component={Mywork}></Route>
       </main>
     );
   }
