@@ -1,13 +1,478 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+  font-family: Fahkwang;
+}
+
+#port {
+  margin-top: 0;
+}
+
+#name {
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.headerlinks {
+  display: none;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.quizzapp {
+  text-align: center;
+}
+.quizzapp img {
+  align-content: center;
+  display: inline-block;
+  width: 90%;
+}
+.getameal img {
+  align-content: center;
+  display: inline-block;
+  width: 90%;
+}
+
+.everRecipes img {
+  align-content: center;
+  display: inline-block;
+  width: 90%;
+}
+.bookapp img {
+  align-content: center;
+  display: inline-block;
+  width: 90%;
+}
+
+.booksmark img {
+  align-content: center;
+  display: inline-block;
+  width: 90%;
+}
+.booksmark,
+.getameal,
+.everRecipes,
+.bookapp {
+  text-align: center;
+}
+.appdescription {
+  font-size: 18px;
+}
+.avatar {
+  display: none;
+}
+
+.main,
+p,
+h2,
+.lenguages,
+.tools,
+.links,
+.tools2 {
+  text-align: center;
+  padding: 0px;
+}
+
+.iconweb {
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lenguages,
+.tools,
+.tools2,
+p {
+  font-size: 25px;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  width: 200px;
+  height: 30px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0sc;
+  font-size: 18px;
+  list-style: none;
+  padding: 0px;
+  line-height: 0px;
+}
+
+#I {
+  display: none;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+}
+#hmenu {
+  justify-content: end;
+  height: 30px;
+}
+
+#tagmenu {
+  margin-top: 21.44px;
+  justify-content: flex-end;
+}
+
+#build {
+  margin: 50px;
+}
+
+.buttonmenu {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  height: 80px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50px;
+  transition: all 0.3s ease 0sc;
+  font-size: 30px;
+
+  padding: 30px;
+  line-height: 25px;
+  margin-top: 50px;
+  display: inline-block;
+  text-align: center;
+}
+
+.menulinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30%;
+}
+
+.menupage {
+  color: white;
+  text-decoration: none;
+  margin: auto;
+}
+
+.contacts img {
+  width: 100px;
+  height: 100px;
+
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.contacts {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  font-size: 20px;
+}
+
+.contacts a {
+  color: black;
+}
+
+.emailcontact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.githubimg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lilinkedin {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: none;
+}
+
+/*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+
+@media screen and (min-width: 375px) {
+}
+
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/ /*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/
+/*big screen starts here****************big screen starts here****************big screen starts here***************/
+@media screen and (min-width: 770px) {
+  body {
+    background-color: black;
+  }
+
+  .iconweb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #name {
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-top: 80px;
+  }
+  #build {
+    margin: 0px;
+    font-size: 30px;
+    color: black;
+  }
+
+  #port {
+    margin-top: 0px;
+    color: white;
+    text-align: right;
+    margin-bottom: 80px;
+  }
+
+  #arrow {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .avatar {
+    height: 150px;
+  }
+
+  .me {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .skills {
+    background-color: black;
+    height: auto;
+  }
+
+  .uno {
+    background-color: white;
+    height: auto;
+    text-align: center;
+  }
+
+  .logo {
+    height: 150px;
+    justify-items: left;
+  }
+
+  .dos {
+    text-align: center;
+    padding-top: 10px;
+    height: auto;
+    color: black;
+  }
+
+  h1 {
+    color: white;
+    padding: 80px;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Fahkwang";
+    font-style: oblique;
+    font-weight: 600;
+  }
+
+  ul {
+    list-style: none;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .tools,
+  .tools2 {
+    padding-bottom: 50px;
+  }
+
+  .button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0sc;
+    font-size: 18px;
+    list-style: none;
+    padding: 15px;
+  }
+
+  .nounder {
+    color: white;
+    text-decoration: none;
+  }
+
+  .bio {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: black;
+    padding-bottom: 50px;
+  }
+
+  .button:hover {
+    background-color: rgba(0, 136, 169, 0.6);
+  }
+
+  li {
+    padding: 30px;
+    text-align: center;
+    display: inline;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  main {
+    color: black;
+    height: auto;
+    background-color: white;
+  }
+
+  footer {
+    padding-top: 10px;
+    background: black;
+    display: block;
+    font-size: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: 0;
+    height: 5hv;
+  }
+
+  footer links {
+    color: white;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .iconweb {
+    height: 100px;
+  }
+
+  h2 {
+    padding: 20px;
+
+    font-size: 30px;
+  }
+
+  .contacts {
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+  }
+
+  .contacts a {
+    color: black;
+    justify-content: space-around;
+  }
+
+  .contacts img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .quizzapp img {
+    display: inline-block;
+    margin: 0;
+    width: 600px;
+    text-align: center;
+  }
+
+  .booksmark img {
+    width: 600px;
+    height: auto;
+  }
+
+  .everRecipes img {
+    width: 600px;
+    height: auto;
+  }
+
+  .getameal img {
+    display: inline-block;
+    margin: 0;
+    width: 600px;
+    text-align: center;
+  }
+
+  .bookapp img {
+    display: inline-block;
+    margin: 0;
+    width: 600px;
+    text-align: center;
+  }
+  .contacts div {
+    margin: 60px;
+  }
+
+  .headerlinks {
+    display: inline-block;
+  }
+
+  .emailcontact {
+    font-size: 40px;
+  }
+
+  .githubimg {
+    font-size: 40px;
+  }
+
+  .lilinkedin {
+    font-size: 40px;
+  }
+
+  .contacts {
+    margin: 80px;
+  }
+
+  .sectionName {
+    font-size: xx-large;
+    text-decoration: underline;
+  }
+}
+/* , and end it with  @media screen and (min-width: 650px) */
