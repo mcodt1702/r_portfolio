@@ -1,5 +1,12 @@
 import React, { Component } from "react";
 import "./header.css";
+import bookapp from "../Images/bookapp.png";
+import geta from "../Images/getameal_signedin.png";
+import getaw from "../Images/getameallanding.png";
+import ever from "../Images/everRecipesStartPage.png";
+import quiz from "../Images/Capture.PNG";
+import bookmark from "../Images/bookmarks.PNG";
+
 export default class Mywork extends Component {
   render() {
     return (
@@ -9,7 +16,7 @@ export default class Mywork extends Component {
           <h2>BookApp</h2>
           <img
             className="apps"
-            src="./css/images/bookapp.png"
+            src={bookapp}
             alt="image of landing page for the booking application"
           />
           <br />
@@ -53,15 +60,11 @@ export default class Mywork extends Component {
           <h2>Geta-Meal</h2>
           <img
             className="apps"
-            src="./css/images/getameallanding.png"
+            src={getaw}
             alt="image of landing page for geta_meal"
           />
           <br />
-          <img
-            className="apps"
-            src="./css/images/getameal_signedin.png"
-            alt="image of getameal_signedin"
-          />
+          <img className="apps" src={geta} alt="image of getameal_signedin" />
 
           <span>
             <a
@@ -108,11 +111,7 @@ export default class Mywork extends Component {
         <br />
         <div className="everRecipes">
           <h2>everRecipes</h2>
-          <img
-            className="apps"
-            src="./css/images/everRecipesStartPage.png"
-            alt="image of ever recipes app"
-          />
+          <img className="apps" src={ever} alt="image of ever recipes app" />
         </div>
         <span>
           <a
@@ -146,11 +145,7 @@ export default class Mywork extends Component {
         <br />
         <div className="quizzapp">
           <h2>Coronavirus QuizzApp</h2>
-          <img
-            className="apps"
-            src="./css/images/Capture.PNG"
-            alt="image of quizzapp game"
-          />
+          <img className="apps" src={quiz} alt="image of quizzapp game" />
         </div>
         <span>
           <a
@@ -182,11 +177,7 @@ export default class Mywork extends Component {
         <br />
         <div className="booksmark">
           <h2>Bookmark App</h2>
-          <img
-            className="apps"
-            src="./css/images/bookmarks.PNG"
-            alt="image of bookmarks game"
-          />
+          <img className="apps" src={bookmark} alt="image of bookmarks game" />
         </div>
         <span>
           <a
