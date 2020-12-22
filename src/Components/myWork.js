@@ -6,12 +6,75 @@ import getaw from "../Images/getameallanding.png";
 import ever from "../Images/everRecipesStartPage.png";
 import quiz from "../Images/Capture.PNG";
 import bookmark from "../Images/bookmarks.PNG";
+import zipSearch from "../Images/zipSearch.png";
+import ncLanding from "../Images/ncLanding.png";
+import nailConnectionMess from "../Images/nailConnectionMess.png";
 
 export default class Mywork extends Component {
   render() {
     return (
       <div className="uno" id="uno">
         <p className="sectionName">My Work</p>
+        <div className="bookapp">
+          <h2>Nail Connection</h2>
+          <img
+            className="apps"
+            src={ncLanding}
+            alt="landing page for geta_meal"
+          />
+          <br />
+          <img
+            className="apps"
+            src={zipSearch}
+            alt="Zip location search results "
+          />
+          <br />
+          <img
+            className="apps"
+            src={nailConnectionMess}
+            alt="Nail Connection messaging system"
+          />
+
+          <span>
+            <a
+              className="clicktoplay"
+              href="https://nailconnection.vercel.app/"
+              target="_blank"
+            >
+              <br />
+              Click Here To visit "Nail Connection".
+            </a>
+          </span>
+          <p className="appdescription">
+            The "Nail Connection" App, is intended to put nail technicians and
+            their coustomer in contact during COVID times. It has an internal
+            massaging system that allows the users to exchange information to
+            plan for a home visit or to meet somewhere where its permited.
+            <br />
+          </p>
+          <p className="appdescription">
+            Technology: React, Node, PostgreSQL, HTML, CSS, JavaScript, jQuery,
+            . Express.
+          </p>
+          <p className="appdescription">
+            Github Repo Client:
+            <a
+              href="https://github.com/mcodt1702/nail_connection"
+              target="_blank"
+            >
+              https://github.com/mcodt1702/nail_connection
+            </a>
+            <br />
+            Github Repo Server:
+            <a
+              href="https://github.com/mcodt1702/nailconnection_serverAPI"
+              target="_blank"
+            >
+              https://github.com/mcodt1702/nailconnection_serverAPI
+            </a>
+          </p>
+        </div>
+
         <div className="bookapp">
           <h2>BookApp</h2>
           <img

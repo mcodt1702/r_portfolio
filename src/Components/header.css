@@ -50,6 +50,7 @@ ul {
   align-content: center;
   display: inline-block;
   width: 90%;
+  margin: 25px;
 }
 
 .booksmark img {
@@ -285,6 +286,9 @@ footer {
     justify-items: left;
   }
 
+  .apps {
+    margin: 5vh;
+  }
   .dos {
     text-align: center;
     padding-top: 10px;
